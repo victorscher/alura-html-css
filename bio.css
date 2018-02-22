@@ -1,11 +1,19 @@
+body {
+	font-family: "Times New Roman";
+	background-color: #F2FFFC;	
+}
 h1 {
 	font-size: 60px;
 	text-align: center;
-	background-color: rgb(120, 20, 60);
+	background-color: #851944;
 	color: #FAFFFA;
 	font-family: "Open sans", sans serif;
 }
 h2 {
 	font-size: 40px;
 	font-family: "Open sans", sans serif;
+}
+
+p {
+	text-align: justify;
 }
