@@ -3,19 +3,33 @@ body {
 	font-size: 120%;
 	background-color: #F2FFFC;
 	line-height: 1.5;
-	margin:0;
 }
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
 main h1 {
 	font-size: 60px;
 	text-align: center;
 	background-color: #851944;
 	color: #FAFFFA;
 	padding: 25px;
-	margin:0;
 	border-bottom: 10px solid #000000;
 }
+
 h2 {
-	font-size: 40px;
+	font-size: 30px;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px
 }
 
 h1, h2 {
@@ -24,15 +38,11 @@ h1, h2 {
 
 p {
 	text-align: justify;
+	margin: 20px 0;
 }
 
 main a {
 	color: #851944;
-}
-
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
 }
 
 blockquote {
@@ -41,7 +51,7 @@ blockquote {
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
-	margin: 0;
+	margin:20px 40px;
 }
 
 aside {
@@ -50,17 +60,23 @@ aside {
 	text-align: center;
 } 
 
-footer {
-	background-color: #000;
-	color: #F2FFFC;
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 nav a {
     color: #F2FFFC;
 }
 
-main div {
-	width: 720px;
-	margin: auto;
-
+footer {
+	background-color: #000;
+	color: #F2FFFC;
 }
+
