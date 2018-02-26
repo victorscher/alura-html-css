@@ -71,6 +71,10 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
+aside li {
+	display: inline-block;
+}
+
 nav a {
     color: #F2FFFC;
 }
