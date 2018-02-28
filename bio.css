@@ -20,10 +20,12 @@ strong {
 	color: #FAFFFA;
 	padding: 25px;
 	border-bottom: 10px solid #000000;
+	text-transform: uppercase;
 }
 
-h2 {
+main h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 .conteudo {
@@ -41,6 +43,11 @@ p {
 	margin: 20px 0;
 }
 
+main {
+	float: left;
+	width: 85%
+}
+
 main a {
 	color: #851944;
 }
@@ -52,6 +59,21 @@ main a {
 	width: 250px;
 	box-sizing: border-box;
 	margin:20px 40px;
+
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float:left;
+}
+
+cite {
+	float: right;
+	font-style: italic;
+	display: block;
 }
 
 #navegacao-site {
@@ -60,6 +82,14 @@ main a {
 	padding: 30px;
 	text-align: center;
 } 
+
+aside {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #000000;
+}
 
 
 aside h1 {
@@ -70,12 +100,40 @@ aside h1 {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.foto-principal {
+	float: right;
+	width: 15%;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #000000;
+	box-sizing: border-box;
 }
 
 .icones-sociais li {
 	display: inline-block;
 }
 
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	font-size: 0;
+}
+
+.github {
+	background-image: url(img/github.png);
+}
+
+.twitter {
+	background-image: url(img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(img/linkedin.png);
+}
 nav a {
     color: #F2FFFC;
 }
@@ -84,6 +142,7 @@ nav a {
 	background-color: #000;
 	color: #F2FFFC;
 	text-align: center;
+	clear: both;
 }
 
 article {
