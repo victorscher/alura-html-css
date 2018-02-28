@@ -45,7 +45,8 @@ p {
 
 main {
 	float: left;
-	width: 85%
+	width: 85%;
+	padding-bottom:120px;
 }
 
 main a {
@@ -81,7 +82,7 @@ cite {
 	color: #F2FFFC;
 	padding: 30px;
 	text-align: center;
-} 
+}
 
 aside {
 	float: right;
@@ -89,6 +90,8 @@ aside {
 	box-sizing: border-box;
 	border-bottom: 10px solid #000000;
 	border-left: 10px solid #000000;
+	position: relative;
+	top: 310px;
 }
 
 
@@ -106,10 +109,12 @@ aside a {
 
 .foto-principal {
 	float: right;
-	width: 15%;
+	width: 300px;
 	border-bottom: 10px solid #000000;
 	border-left: 10px solid #000000;
-	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .icones-sociais li {
@@ -143,6 +148,10 @@ nav a {
 	color: #F2FFFC;
 	text-align: center;
 	clear: both;
+	padding: 35px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 article {
