@@ -1,0 +1,160 @@
+body {
+	font-family: "Crimson Text";
+	font-size: 120%;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.titulo-principal {
+	font-size: 60px;
+	text-align: center;
+	background-color: #851944;
+	color: #FAFFFA;
+	padding: 25px;
+	border-bottom: 10px solid #000000;
+	text-transform: uppercase;
+}
+
+main h2 {
+	font-size: 30px;
+	clear: both;
+}
+
+.conteiner {
+	width: 800px;
+	margin: auto;
+	padding: 30px
+}
+
+.div-trabalhos {
+    width: 380px;
+    box-sizing: border-box;
+    border: 8px solid #000;
+    padding: 16px;
+    float: left;
+    background-color: #FAFFFC;
+}
+
+.bmw {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.uol {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ibm {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.g1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom:120px;
+}
+
+main a {
+	color: #851944;
+}
+
+#navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 30px;
+	text-align: center;
+}
+
+aside {
+	width: 15%;
+	box-sizing: border-box;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #000000;
+	position: absolute;
+	top: 310px;
+	right: 0;
+}
+
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.foto-principal {
+	float: right;
+	width: 300px;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #000000;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	font-size: 0;
+}
+
+.github {
+	background-image: url(../img/github.png);
+}
+
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../img/linkedin.png);
+}
+nav a {
+    color: #F2FFFC;
+}
+
+#rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	text-align: center;
+	clear: both;
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
