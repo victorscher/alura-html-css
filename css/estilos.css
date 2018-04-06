@@ -1,5 +1,5 @@
 body {
-    font-family: "Crimson Text";
+    font-family: "Montserrat";
     font-size: 120%;
     background-color: #F2FFFC;
     line-height: 1.5;
@@ -120,6 +120,6 @@ nav a {
     clear: both;
     padding: 20px;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }

@@ -1,0 +1,36 @@
+.conteudo {
+    width: 800px;
+    margin: auto;
+    padding: 30px
+}
+
+
+.skill {
+
+}
+
+.skill li {
+    width: 350px;
+    display:inline-block;
+    margin-right: 45px;
+}
+
+.circle-black{
+    border-radius:100%;
+    border:1px solid black;
+    width:10px;
+    height:10px;
+    background-color:black;
+    float: right;
+    margin: 10px 5px;
+}
+
+.circle-gray{
+    border-radius:100%;
+    border:1px solid gray;
+    width:10px;
+    height:10px;
+    background-color:gray;
+    float: right;
+    margin: 10px 5px;
+}
